@@ -19,6 +19,8 @@
 #import "SerialQueueDemo.h"
 #import "SemaphoreDemo.h"
 #import "SynchronizedDemo.h"
+#import "PthreadrwlockDemo.h"
+#import "BarrierDemo.h"
 
 @interface ViewController ()
 @end
@@ -63,15 +65,21 @@
 //    [demo ticketTest];
     
     
-    MJBaseDemo *demo = [[SemaphoreDemo alloc] init];
-    [demo otherTest];
-    [demo moneyTest];
-    [demo ticketTest];
+//    MJBaseDemo *demo = [[SemaphoreDemo alloc] init];
+//    [demo otherTest];
+//    [demo moneyTest];
+//    [demo ticketTest];
     
 //    MJBaseDemo *demo = [[SynchronizedDemo alloc] init];
 //    [demo otherTest];
 //    [demo moneyTest];
 //    [demo ticketTest];
+    
+//    MJBaseDemo *demo = [[PthreadrwlockDemo alloc] init];
+//    [demo otherTest];
+    
+    MJBaseDemo *demo = [[BarrierDemo alloc] init];
+    [demo otherTest];
 }
 
 

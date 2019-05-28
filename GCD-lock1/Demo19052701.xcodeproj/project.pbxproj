@@ -26,6 +26,8 @@
 		A11125F3229CDB080018E07C /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A11125F2229CDB080018E07C /* SerialQueueDemo.m */; };
 		A11125F6229CDDEB0018E07C /* SemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A11125F5229CDDEB0018E07C /* SemaphoreDemo.m */; };
 		A11125F9229D29C40018E07C /* SynchronizedDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A11125F8229D29C40018E07C /* SynchronizedDemo.m */; };
+		A11125FC229D6DBE0018E07C /* PthreadrwlockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A11125FB229D6DBE0018E07C /* PthreadrwlockDemo.m */; };
+		A11125FF229D72440018E07C /* BarrierDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A11125FE229D72440018E07C /* BarrierDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,10 @@
 		A11125F5229CDDEB0018E07C /* SemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemo.m; sourceTree = "<group>"; };
 		A11125F7229D29C40018E07C /* SynchronizedDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynchronizedDemo.h; sourceTree = "<group>"; };
 		A11125F8229D29C40018E07C /* SynchronizedDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronizedDemo.m; sourceTree = "<group>"; };
+		A11125FA229D6DBE0018E07C /* PthreadrwlockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PthreadrwlockDemo.h; sourceTree = "<group>"; };
+		A11125FB229D6DBE0018E07C /* PthreadrwlockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PthreadrwlockDemo.m; sourceTree = "<group>"; };
+		A11125FD229D72440018E07C /* BarrierDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrierDemo.h; sourceTree = "<group>"; };
+		A11125FE229D72440018E07C /* BarrierDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrierDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,10 @@
 				A11125F5229CDDEB0018E07C /* SemaphoreDemo.m */,
 				A11125F7229D29C40018E07C /* SynchronizedDemo.h */,
 				A11125F8229D29C40018E07C /* SynchronizedDemo.m */,
+				A11125FA229D6DBE0018E07C /* PthreadrwlockDemo.h */,
+				A11125FB229D6DBE0018E07C /* PthreadrwlockDemo.m */,
+				A11125FD229D72440018E07C /* BarrierDemo.h */,
+				A11125FE229D72440018E07C /* BarrierDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -220,10 +230,12 @@
 			files = (
 				A11125F3229CDB080018E07C /* SerialQueueDemo.m in Sources */,
 				A11125E7229C2A090018E07C /* MutexDemo3.m in Sources */,
+				A11125FF229D72440018E07C /* BarrierDemo.m in Sources */,
 				A11125F9229D29C40018E07C /* SynchronizedDemo.m in Sources */,
 				A11125F0229CD0800018E07C /* NSConditionLockDemo.m in Sources */,
 				A11125DE229C10CC0018E07C /* OSUnfairLockDemo.m in Sources */,
 				A11125BF229BA1ED0018E07C /* ViewController.m in Sources */,
+				A11125FC229D6DBE0018E07C /* PthreadrwlockDemo.m in Sources */,
 				A11125D8229BF1B90018E07C /* OSSpinLockDemo.m in Sources */,
 				A11125E4229C20B00018E07C /* MutexDemo2.m in Sources */,
 				A11125F6229CDDEB0018E07C /* SemaphoreDemo.m in Sources */,
