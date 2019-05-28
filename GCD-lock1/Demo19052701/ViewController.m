@@ -62,6 +62,7 @@
 //    [demo moneyTest];
 //    [demo ticketTest];
     
+    
     MJBaseDemo *demo = [[SemaphoreDemo alloc] init];
     [demo otherTest];
     [demo moneyTest];
