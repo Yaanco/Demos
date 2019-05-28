@@ -41,9 +41,9 @@
 //    [demo3 moneyTest];
 //    [demo3 ticketTest];
     
-//    MutexDemo *demo4 = [[MutexDemo alloc] init];
+    MutexDemo *demo4 = [[MutexDemo alloc] init];
 //    [demo4 moneyTest];
-//    [demo4 ticketTest];
+    [demo4 ticketTest];
 //    [demo4 otherTest];
     
 //    MutexDemo3 *demo4 = [[MutexDemo3 alloc] init];
@@ -75,8 +75,8 @@
 //    RWLockDemo *demo11 = [[RWLockDemo alloc] init];
 //    [demo11 otherTest];
     
-    BarrierDemo *demo12 = [[BarrierDemo alloc] init];
-    [demo12 otherTest];
+//    BarrierDemo *demo12 = [[BarrierDemo alloc] init];
+//    [demo12 otherTest];
 }
 
 @end

@@ -16,7 +16,9 @@
 @end
 
 @implementation MutexDemo
-
+/**
+ - (void)__initMutex:(pthread_mutex_t)mutex // 这么写会有问题
+ */
 - (void)__initMutex:(pthread_mutex_t *)mutex {
     pthread_mutexattr_t attr;
     pthread_mutexattr_init(&attr);
@@ -82,6 +84,7 @@
     // 销毁锁
     pthread_mutex_destroy(&_moneyMutex);
     pthread_mutex_destroy(&_ticketMutex);
+    pthread_mutex_destroy(&_otherMutex);
 }
 
 @end

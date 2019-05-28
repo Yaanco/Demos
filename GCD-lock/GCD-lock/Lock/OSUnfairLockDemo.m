@@ -10,6 +10,8 @@
 #import <os/lock.h>
 
 @interface OSUnfairLockDemo ()
+// Low-level lock:低级锁
+// 互斥锁：等不到锁时，处于休眠状态
 @property (nonatomic, assign) os_unfair_lock moneyLock;
 @property (nonatomic, assign) os_unfair_lock ticketLock;
 @end

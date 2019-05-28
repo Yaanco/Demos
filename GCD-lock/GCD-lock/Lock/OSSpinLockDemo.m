@@ -10,6 +10,8 @@
 #import <libkern/OSAtomic.h>
 
 @interface OSSpinLockDemo ()
+// High-level lock:高级锁
+// 自旋锁：等不到锁处于忙等状态
 @property (nonatomic, assign) OSSpinLock moneyLock;
 @property (nonatomic, assign) OSSpinLock ticketLock;
 @end

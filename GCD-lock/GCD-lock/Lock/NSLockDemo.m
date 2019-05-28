@@ -9,6 +9,7 @@
 #import "NSLockDemo.h"
 
 @interface NSLockDemo ()
+// NSLock是对pthread_mutex的封装,可以查看GNUStep源码
 @property (nonatomic, strong) NSLock *moneyLock;
 @property (nonatomic, strong) NSLock *ticketLock;
 @end
