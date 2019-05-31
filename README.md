@@ -7,3 +7,7 @@
 ### GCD-queue
 
 多线程队列的使用
+
+### MemoryManage
+
+内存管理
