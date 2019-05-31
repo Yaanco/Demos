@@ -8,12 +8,10 @@
 
 #import "GCDTimerController.h"
 #import "YCTimer.h"
-#import "TimerTest.h"
 
 @interface GCDTimerController ()
 @property (nonatomic, strong) dispatch_source_t timer;
 @property (nonatomic, copy) NSString *taskName;
-@property (nonatomic, strong) TimerTest *timerTest;
 @end
 
 @implementation GCDTimerController

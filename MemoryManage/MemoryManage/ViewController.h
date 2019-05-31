@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, copy) NSArray *arr1;
+@property (nonatomic, strong) NSMutableArray *arr2;
+
+@property (nonatomic, copy) NSString *str;
 
 @end
 

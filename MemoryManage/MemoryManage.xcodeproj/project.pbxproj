@@ -18,8 +18,9 @@
 		A111262A229D88B00018E07C /* TargetProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1112629229D88B00018E07C /* TargetProxy.m */; };
 		A111262D229D91C60018E07C /* YCProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A111262C229D91C60018E07C /* YCProxy.m */; };
 		A1112630229E4B990018E07C /* GCDTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A111262F229E4B990018E07C /* GCDTimerController.m */; };
-		A1112639229EB5850018E07C /* TimerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1112638229EB5850018E07C /* TimerTest.m */; };
 		A111263C229EBAAC0018E07C /* YCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A111263A229EBAAB0018E07C /* YCTimer.m */; };
+		A111263F229F929A0018E07C /* YCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A111263E229F929A0018E07C /* YCPerson.m */; };
+		A1112667229FDF050018E07C /* YCDog.m in Sources */ = {isa = PBXBuildFile; fileRef = A1112666229FDF050018E07C /* YCDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,10 +44,12 @@
 		A111262C229D91C60018E07C /* YCProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCProxy.m; sourceTree = "<group>"; };
 		A111262E229E4B990018E07C /* GCDTimerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTimerController.h; sourceTree = "<group>"; };
 		A111262F229E4B990018E07C /* GCDTimerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimerController.m; sourceTree = "<group>"; };
-		A1112637229EB5850018E07C /* TimerTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTest.h; sourceTree = "<group>"; };
-		A1112638229EB5850018E07C /* TimerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTest.m; sourceTree = "<group>"; };
 		A111263A229EBAAB0018E07C /* YCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCTimer.m; sourceTree = "<group>"; };
 		A111263B229EBAAB0018E07C /* YCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCTimer.h; sourceTree = "<group>"; };
+		A111263D229F929A0018E07C /* YCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCPerson.h; sourceTree = "<group>"; };
+		A111263E229F929A0018E07C /* YCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCPerson.m; sourceTree = "<group>"; };
+		A1112665229FDF050018E07C /* YCDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCDog.h; sourceTree = "<group>"; };
+		A1112666229FDF050018E07C /* YCDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,10 @@
 				A111260D229D7EF70018E07C /* AppDelegate.m */,
 				A111260F229D7EF70018E07C /* ViewController.h */,
 				A1112610229D7EF70018E07C /* ViewController.m */,
+				A111263D229F929A0018E07C /* YCPerson.h */,
+				A111263E229F929A0018E07C /* YCPerson.m */,
+				A1112665229FDF050018E07C /* YCDog.h */,
+				A1112666229FDF050018E07C /* YCDog.m */,
 				A1112622229D826C0018E07C /* RecycleController.h */,
 				A1112623229D826C0018E07C /* RecycleController.m */,
 				A1112625229D87E80018E07C /* TargetController.h */,
@@ -95,8 +102,6 @@
 				A111262F229E4B990018E07C /* GCDTimerController.m */,
 				A111263B229EBAAB0018E07C /* YCTimer.h */,
 				A111263A229EBAAB0018E07C /* YCTimer.m */,
-				A1112637229EB5850018E07C /* TimerTest.h */,
-				A1112638229EB5850018E07C /* TimerTest.m */,
 				A1112612229D7EF70018E07C /* Main.storyboard */,
 				A1112615229D7EF80018E07C /* Assets.xcassets */,
 				A1112617229D7EF80018E07C /* LaunchScreen.storyboard */,
@@ -180,7 +185,8 @@
 				A111262D229D91C60018E07C /* YCProxy.m in Sources */,
 				A1112630229E4B990018E07C /* GCDTimerController.m in Sources */,
 				A111263C229EBAAC0018E07C /* YCTimer.m in Sources */,
-				A1112639229EB5850018E07C /* TimerTest.m in Sources */,
+				A1112667229FDF050018E07C /* YCDog.m in Sources */,
+				A111263F229F929A0018E07C /* YCPerson.m in Sources */,
 				A111262A229D88B00018E07C /* TargetProxy.m in Sources */,
 				A1112624229D826C0018E07C /* RecycleController.m in Sources */,
 				A111261C229D7EF80018E07C /* main.m in Sources */,
